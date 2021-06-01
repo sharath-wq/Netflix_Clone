@@ -18,9 +18,11 @@ function RowPoster(props) {
     const opts = {
         height: '390',
         width: '100%',
+        margin: 0,
         playerVars: {
           // https://developers.google.com/youtube/player_parameters
           autoplay: 1,
+          controls: 0,
         },
       }; 
     const handleMovie = (id) => {
